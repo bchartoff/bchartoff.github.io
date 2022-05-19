@@ -1,6 +1,29 @@
 # Projects
 # uncomment the urls if you wish to display them, and add your own URL
 
+- project: Redefining Walkability
+  role: Data viz developer
+  url: https://www.urban.org/features/redefining-walkability
+  date: April 28, 2022
+  organization: The Urban Institute
+  image: walk.png
+
+- project: Changing a Life
+  role: Data viz and front end developer
+  url: https://apps.urban.org/features/influencing-mobility-and-inequality/
+  date: March 22, 2022
+  organization: The Urban Institute
+  github: https://github.com/UrbanInstitute/influencing-mobility-and-inequality
+  image: sgm.png
+
+- project: Tracking Homeownership Wealth Gaps
+  role: Data viz and front end developer
+  url: https://apps.urban.org/features/tracking-housing-wealth-equity/
+  date: November 24, 2021
+  organization: The Urban Institute
+  github: https://github.com/UrbanInstitute/tracking-housing-wealth-equity
+  image: homeownership.png
+
 - project: Spatial Equity Data Tool
   role: Data viz and front end developer
   url: https://apps.urban.org/features/equity-data-tool/index.html
