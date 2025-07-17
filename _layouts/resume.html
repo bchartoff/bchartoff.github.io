@@ -40,10 +40,10 @@
 
       {% if site.resume_looking_for_work == 'yes' %}
       <div style="
-    width: fit-content;
-    margin: 0 auto;">
-      <a href="mailto:{{ site.resume_contact_email }}" class="contact-button no-print" itemprop="email">Email me</a>
-      <a href="Ben_Chartoff_Resume.pdf" class="contact-button no-print" itemprop="">Download Résumé</a>
+        width: fit-content;
+        margin: 0 auto;">
+        <a href="mailto:{{ site.resume_contact_email }}" class="contact-button no-print" itemprop="email">Email me</a>
+        <a href="Ben_Chartoff_Resume.pdf" class="contact-button no-print" itemprop="">Download Résumé</a>
       </div>
       {% elsif site.resume_looking_for_work == 'no' %}
       <a class="contact-button not-looking no-print">I'm not looking for work right now.</a>
@@ -77,12 +77,12 @@
                 data-role="{{ project.role | escape }}" data-date="{{ project.date | escape }}"
                 data-org="{{ project.organization | escape }}">
                 {% include icons/icon-view.html %}
-            </span>
+              </span>
               {% else %}
               <span href="{{ project.url }}" class="icon-link" itemprop="sameAs" target="_blank">
                 {% include icons/icon-view.html %}
-              </a>
-              {% endif %}
+                </a>
+                {% endif %}
             </i>
 
             {% if project.github %}
@@ -168,7 +168,7 @@
 
           modalBody.innerHTML = `
           <h2>${title}</h2>
-          <p>Starting in June, 2022, Ben worked as a data visualization consultant at <a href = "https://www.excella.com/markets/federal" target="_blank">Excella.</a> Ben served at federal agencies, building Power BI reports, developing standards for PBI data ops (including a focus on version control in git), and managing a variety of projects and team members.</p>
+          <p>Starting in June, 2022, Ben worked as a data visualization consultant at <a href = "https://www.excella.com/markets/federal" target="_blank">Excella.</a> Ben served at federal agencies, building Power BI reports, developing standards for PBI DataOps (including a focus on version control in git), and managing a variety of projects and team members.</p>
           <p>While this work is not public-facing, it reached broad audiences of federal employees across the US, enabling data-driven decision making for a variety of users. Ben is passionate about finding ways to treat PBI reports as code bases, implementing modern standards for version control, CI/CD, and automated testing</p>
         `;
           modal.classList.remove("hidden");
