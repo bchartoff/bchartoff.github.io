@@ -1,6 +1,14 @@
 # Projects
 # uncomment the urls if you wish to display them, and add your own URL
 
+- project: Federal Power BI Projects
+  role: Data viz developer
+  url: https://www.excella.com/markets/federal
+  date: June 2022&ndash;Present
+  organization: Excella
+  image: pbi.png
+  popup: true
+
 - project: Redefining Walkability
   role: Data viz developer
   url: https://www.urban.org/features/redefining-walkability
